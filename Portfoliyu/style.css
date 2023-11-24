@@ -1,0 +1,124 @@
+body {
+    background: #fff;
+    color: rgba(255, 255, 255, 0.4);
+    background: #222;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300; }
+  
+.letter-spacing {
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.5) !important; }
+
+#section-home{
+    background: url(./images/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.site-section {
+    padding: 5em 0; 
+}
+.resume-item {
+        padding: 30px;
+        background: #333;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        border: 4px solid transparent;
+        border-radius: 7px; 
+    }
+.resume-item .date {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 12px;
+          font-weight: 700;
+          color: #fff; 
+        }
+.resume-item .school {
+            display: block;
+            font-size: 16px; 
+        }
+.resume-item h3 {
+            color: #bac964;
+            font-size: 20px; 
+        }
+.resume-item .school {
+            color: rgba(255, 255, 255, 0.3); 
+        }
+.resume-item *:last-child {
+            margin-bottom: 0; 
+        }
+.section-heading {
+             margin-bottom: 30px;
+             position: relative;
+             z-index: 10; 
+        }
+.section-heading h2 {
+            position: relative;
+            font-weight: 200;
+            padding-top: 20px;
+            font-size: 30px; 
+        }
+.section-heading h2 strong {
+            font-weight: 800;
+            color: #fff;
+        }
+.site-project-item {
+            background: #333;
+            padding: 30px; 
+        }    
+.site-project-item h3 {
+            font-size: 20px;
+            font-weight: 200;
+            color: #fff; 
+        }     
+        
+        
+.form-control {
+            border: none !important;
+            background: #333;
+            color: #fff;
+            -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important; 
+        }
+.form-control:active, .form-control:focus {
+              background: #404040; 
+        }
+.form-control::-webkit-input-placeholder {
+              /* Chrome/Opera/Safari */
+              color: rgba(255, 255, 255, 0.5); 
+        }
+.form-control::-moz-placeholder {
+              /* Firefox 19+ */
+              color: rgba(255, 255, 255, 0.5); 
+        }
+.form-control:-ms-input-placeholder {
+              /* IE 10+ */
+              color: rgba(255, 255, 255, 0.5); 
+        }
+.form-control:-moz-placeholder {
+              /* Firefox 18- */
+              color: rgba(255, 255, 255, 0.5); 
+        }
+.site-form .form-control {
+            border: 1px solid #b3bdc6; 
+        }     
+.site-contact-details, .site-contact-details li {
+            padding: 0;
+            margin: 0;
+}        
+.site-contact-details li {
+            list-style: none;
+            margin-bottom: 20px; 
+        }
+.site-contact-details li > span {
+            color: #2c3e50;
+            letter-spacing: .1em;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+        }
